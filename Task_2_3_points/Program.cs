@@ -27,4 +27,4 @@ coordsB[2] = Convert.ToInt32(Console.ReadLine());
 
 double S = Math.Sqrt(Math.Pow(coordsA[0] - coordsB[0], 2) + Math.Pow(coordsA[1] - coordsB[1], 2) + Math.Pow(coordsA[2] - coordsB[2], 2));
 
-System.Console.WriteLine($"расстояние между ними в 3D пространстве= {S}");
+System.Console.WriteLine($"расстояние между ними в 3D пространстве= {Math.Round(S, 3)}");
